@@ -1,5 +1,4 @@
-/*! Respond.js v1.1.0: min/max-width media query polyfill. (c) Scott Jehl. MIT/GPLv2 Lic. j.mp/respondjs  */
-/* mediaQuery support (including listeners) based on https://github.com/paulirish/matchMedia.js James Westgate queryj.com */
+
 (function(root){
     
     //exposed namespace
