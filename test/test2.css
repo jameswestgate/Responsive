@@ -3,6 +3,6 @@ it should only apply on screen > 600px */
 #attribute-test {
 	display: block;
 	color: #fff;
-	background: black;
+	background: #ccc;
 	text-align: center;
 }

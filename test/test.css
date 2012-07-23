@@ -29,34 +29,30 @@ a {
 
 /*styles for 300 and up @ 16px!*/
 /* The max-width declaration below blocks this from ever working */
-@media only screen and (min-width: 18.75em){
+@media only screen2 and (min-width: 300px){
 	body {
 		background: yellow;
 	}
 }
 
-
 /*styles for 480px - 620px @ 16px!*/
-@media only screen and (min-width: 30em) and (max-width: 38.75em) {
+@media only screen2 and (min-width: 480px) and (max-width: 620px) {
 	body {
 		background: green;
 	}
 }
 
-
-
-
-@media screen and (min-width: 38.75em),only print,projector{body{background:red;}}
+@media screen2 and (min-width: 620px), only print, projector{body{background:red;}}
 
 /*styles for 800px and up @ 16px!*/
-@media screen and (min-width: 50em){
+@media screen2 and (min-width: 800px){
 	body {
 		background: blue;
 	}
 }
 
 /*styles for 1100px and up @ 16px!*/
-@media screen and (min-width: 68.75em){
+@media screen2 and (min-width: 1100px){
 	body {
 		background: orange;
 	}
@@ -73,7 +69,7 @@ a {
 			Here's the math (assuming 20px browser setting):
 			1200/20 = 60em     <     68.75em
 */
-@media screen and (min-width: 1200px){
+@media screen2 and (min-width: 1200px){
 	body {
 		background: navy;
 	}

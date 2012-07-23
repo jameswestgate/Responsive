@@ -2,10 +2,12 @@
 <html>
 <head>
 	<meta charset="utf-8" />
-	<title>Respond JS Test Page</title>
+	<title>Responsive JS Test Page</title>
 	<link href="test.css" rel="stylesheet"/>
-	<link href="test2.css" media="screen and (min-width: 37.5em)" rel="stylesheet"/> <!-- 37.5em = 600px @ 16px -->
-	<script src="../respond.src.js"></script>
+    <link href="test2.css" media="screen and (min-width: 600px)" rel="stylesheet"/>
+
+    <!--[if IE]><script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script><![endif]-->
+	<script src="../responsive.js"></script>
 </head> 
 <body>
 	<p>This is just a visual test file, and an ugly one at that! For unit tests, visit the <a href="unit/"> Respond.js unit test suite</a></p>
@@ -16,7 +18,7 @@
 
 	<p id="attribute-test">Media-attributes are working too! This should be visible above 37.5em.</p>
 
-</body>
+
 <footer></footer>
 
 <script>
@@ -41,4 +43,5 @@
     }
 
 </script>
+</body>
 </html>
